@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.btn:focus,
+.btn:hover {
+  color: rgb(168, 5, 83);
+  border-color: rgb(168, 5, 83);
+}
